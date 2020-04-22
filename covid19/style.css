@@ -1,0 +1,51 @@
+html{
+    font-family: sans-serif;
+}
+body {
+    margin: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 90%;
+  }
+  li {
+    float: right;
+  }
+  .active {
+    background-color: #4CAF50;
+  }  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22.5px 30px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row {
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
