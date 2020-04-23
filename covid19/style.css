@@ -1,5 +1,5 @@
 html{
-    font-family: sans-serif;
+    font-family: "Roboto","Helvetica Neue",Helvetica,sans-serif;
     scroll-behavior: smooth;
 }
 body {
@@ -13,7 +13,7 @@ ul {
     margin-right: auto;
     padding: 0;
     overflow: hidden;
-    background-color: #DEDEDE;
+    background-color: #EBEBEB;
     top: 0;
     width: 95%;
 }
@@ -27,10 +27,13 @@ li {
 li a {
     display: block;
     color: #EB4034;
+    color: #404040;
     text-align: center;
     padding: 22.5px 30px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 li a:hover {
     background-color: #F2685E;
@@ -43,7 +46,7 @@ li a:hover {
     margin-right: auto;
 }
 .row {
-    margin: 5px;
+    margin: 0px 50px;
 }
 .row:after {
     content: "";
