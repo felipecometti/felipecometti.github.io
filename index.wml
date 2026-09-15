@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml> 
+
+<card id='index' title='Welcome!'>
+  <!-- <img align='middle' src='/img/me.gif' alt='My Face' height='72' width='72' /><br/> -->
+  <p>This site is best viewed on a WAP-enabled device!</p>
+  <p>Services:</p>
+  <a href='#about'>- About Me</a><br/>
+  <a href='/weather/'>- WML Weather</a><br/>
+</card>
+<card id='about' title='About Me'>
+	<p>Please hold, site under construction!</p>    
+</card>
+</wml>
